@@ -148,11 +148,11 @@ func (f RepeatingGroup) groupTagOrder() tagOrder {
 		var orderj int64 = math.MaxInt64
 
 		if iIndex, ok := tagMap[i]; ok {
-			orderi = iIndex
+			orderi = int64(iIndex)
 		}
 
 		if jIndex, ok := tagMap[j]; ok {
-			orderj = jIndex
+			orderj = int64(jIndex)
 		}
 
 		return orderi < orderj
