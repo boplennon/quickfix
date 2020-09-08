@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/quickfixgo/quickfix/config"
+	"github.com/boplennon/quickfix/config"
 )
 
 type sqlStoreFactory struct {

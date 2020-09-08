@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/quickfixgo/quickfix/config"
+	"github.com/boplennon/quickfix/config"
 )
 
 type fileLog struct {
